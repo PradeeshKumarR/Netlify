@@ -1,0 +1,24 @@
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+sup {
+  color: red;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
