@@ -1,3 +1,8 @@
+body {
+  max-width: 500px;
+  margin: auto;
+}
+
 h1 {
   color: darkblue;
   text-align: center;
@@ -9,7 +14,7 @@ sup {
 }
 
 input[type="text"] {
-  width: 100%;
+  width: 95.5%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -21,4 +26,8 @@ input[type="submit"] {
   color: white;
   padding: 10px;
   border-radius: 10px;
+}
+
+.common {
+  color: blue;
 }
