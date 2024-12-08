@@ -4,52 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-      td {
-        text-align: center;
-      }
-    </style>
   </head>
   <body>
-    <!-- <script src="script.js"></script> -->
-    <table>
-      <thead>
-        <th>State of health</th>
-        <th colspan="2">Fasting Value</th>
-        <th>After Remaining</th>
-      </thead>
-      <thead>
-        <th></th>
-        <th>Minimum</th>
-        <th>Normal</th>
-        <th>2 hours of Eating</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>healthy</td>
-          <td>70</td>
-          <td>100</td>
-          <td>Less than 140</td>
-        </tr>
-        <tr>
-          <td>Pre-Diabetes</td>
-          <td>101</td>
-          <td>126</td>
-          <td>140 to 20</td>
-        </tr>
-        <tr>
-          <td>Diabetes</td>
-          <td>more than 126</td>
-          <td>Not Applicable</td>
-          <td>More than 200</td>
-        </tr>
-      </tbody>
-    </table>
+    <h1>Software Request</h1>
+    <form action="post">
+      <label for="name">Name <sup>*</sup></label
+      ><br />
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="empid">Employee ID <sup>*</sup></label
+      ><br />
+      <input type="text" id="empid" name="empid" /><br /><br />
+      <label for="email">Email <sup>*</sup></label
+      ><br />
+      <input type="text" id="email" name="email" /><br /><br />
+      <label for="mobileno">Mobile No / Extn.No</label><br />
+      <input type="text" id="mobileno" name="mobileno" /><br /><br />
+      <div>Which software do you require? <sup>*</sup></div>
+      <input
+        type="checkbox"
+        id="software1"
+        name="software1"
+        value="Software A"
+      />
+      <label for="software1"> Software A</label><br />
+      <input
+        type="checkbox"
+        id="software2"
+        name="software2"
+        value="Software B"
+      />
+      <label for="software2"> Software B</label><br />
+      <input
+        type="checkbox"
+        id="software3"
+        name="software3"
+        value="Software C"
+      />
+      <label for="software3"> Software C</label><br /><br />
+      <div>How urgently do you need it? <sup>*</sup></div>
+      <input
+        type="radio"
+        id="asap"
+        name="requirement_within"
+        value="As soon as possible"
+      />
+      <label for="asap">As soon as possible</label><br />
+      <input
+        type="radio"
+        id="within2or3weeks"
+        name="requirement_within"
+        value="Within in 2 to 3 weeks"
+      />
+      <label for="within2or3weeks">Within in 2 to 3 weeks</label><br />
+      <input
+        type="radio"
+        id="nohurry"
+        name="requirement_within"
+        value="I'm in no hurry"
+      />
+      <label for="nohurry">I'm in no hurry</label><br /><br />
+      <input type="submit" value="Request" />
+    </form>
+    <link rel="stylesheet" href="https://github.com/PradeeshKumarR/Netlify/blob/main/style.css" />
   </body>
 </html>
